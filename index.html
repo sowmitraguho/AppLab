@@ -5,27 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AppLab</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <header>
+  <body class="my-12 mx-24 border border-red-500">
+    <header class="flex flex-row justify-between mb-12">
       <div class="logo">
-        <h2 class="logo-title">
-          <span class="logo1">App</span>
-          <span class="logo2">Lab</span>
+        <h2 class="logo-title text-blue-900 font-extrabold text-3xl">
+          <span class="logo1 text-orange-500">App</span>Lab
         </h2>
       </div>
-      <div class="header-menu">
-        <ul>
-          <li><a href="http://">Home</a></li>
-          <li><a href="http://">Key Features</a></li>
-          <li><a href="http://">Pricing</a></li>
-          <li><a href="http://">Testimonial</a></li>
-          <li><a href="http://">FAQ</a></li>
-        </ul>
-      </div>
-      <div class="try-button">
-        <button type="button" class="button">Try for free</button>
+      <div class="right-section flex flex-row justify-between items-center">
+        <div class="header-menu">
+          <ul class="font-semibold">
+            <li><a href="http://">Home</a></li>
+            <li><a href="http://">Key Features</a></li>
+            <li><a href="http://">Pricing</a></li>
+            <li><a href="http://">Testimonial</a></li>
+            <li><a href="http://">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="try-button">
+          <button type="button" class="button ml-16 text-white px-6 py-2 bg-indigo-600 rounded-3xl font-semibold">Try for free</button>
+        </div>
       </div>
     </header>
+    <section class="flex flex-row justify-between">
+      <div class="left-section">
+        <h2>#1Editors Choice App 2020</h2>
+        <div class="title">
+          <h1>Best app for your</h1>
+          <h1>modern lifestyle</h1>
+        </div>
+        <p>Increase productivity with a simple to-do app. app for managing your personal budgets.</p>
+        <div class="try-button">
+          <button type="button" class="button text-white px-6 py-2 bg-indigo-600 rounded-3xl font-semibold">Try for free</button>
+          <a href="">Watch demo video</a>
+        </div>
+      </div>
+      <div class="right-section">
+
+      </div>
+    </section>
   </body>
 </html>
